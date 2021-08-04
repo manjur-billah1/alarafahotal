@@ -475,10 +475,11 @@
 }
         /* BANNER */
 #banner {
-  background: linear-gradient(rgba(0,0,0,0.5),#009688),url(images/Banner.jpg);
+  background: linear-gradient(#00000075,#009688) url("Images/Banner.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
+  background-blend-mode: multiply;
 }
 #Logo {
   position: absolute;
